@@ -1,0 +1,5 @@
+<div class="bg-green-200 p-1">
+    <h2 class="text-4xl text-center font-semibold my-2">TP : Component Communication</h2>
+    <app-affichage [text]="text" [age]="age"></app-affichage>
+    <app-formulaire (updateUser)="updatedUser($event)"></app-formulaire>
+</div>
